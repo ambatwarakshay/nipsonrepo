@@ -8,8 +8,8 @@ export default function Home() {
         <p className="text-[#000000] text-6xl font-normal">Welcome to</p>
 
         {/* Logo and Tagline */}
-        <div className="space-y-2">
-          <img src='/breathefree-logo-new3.png' className="w-[922px] h-[178px]" />
+        <div className="space-y-2 w-[922px] h-[178px]">
+          <Image src="./breathefree-logo-new3.png" fill className="" />
           <p className="text-[#000000] text-7xl font-semibold">
             Learn, Track, Adhere
           </p>
